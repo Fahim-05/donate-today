@@ -30,15 +30,23 @@ body{
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
+
+
+
+
+
 
 
 
 
 .donate-today{
     text-align: center;
+}
+.donate-today p{
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .flexible-container{
     display: flex;
@@ -49,22 +57,28 @@ body{
 
 }
 .dollar{
-    border: 2px solid orangered;
+    
     border-radius: 5px;
-    background-color: grey;
+    background-color: #FAFAFA;
     width: 80px;
-    height: 60px;
-    padding-top: 25px;
+    height: 50px;
+    padding-top: 20px;
     text-align: center;
 }
+#second-dollar-color{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+    
+}
 
-/* .dollar{
+.other-amount{
     text-align: center;
-    width: 4%;
-    padding: 20px 20px;
-    border-radius: 5px;
-    margin: 6px;
-    background-color: #d00c0c;
-
-    box-sizing: border-box;
-} */
+}
+input{
+    height: 40px;
+    width: 40%;
+    border: none;
+    border-bottom: 2px solid #FF5959;
+    text-align: center
+}
