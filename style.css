@@ -98,11 +98,6 @@ body{
 }
 .plan-box-width{
     width: 40%;
-    
-    /* padding-top: 50px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px; */
     padding: 40px 20px 20px;
 
     margin: 10px;
@@ -129,6 +124,7 @@ body{
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+    margin-top: 100px;
 }
 
 
@@ -153,4 +149,26 @@ body{
     margin-left: -5px;
     padding: 10px 20px;
     border-radius: 0px 5px  5px 0px;
+}
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 100px;
+   background-color: #0B0D17;
+   text-align: center;
+   padding: 10px 0 15px 0 ;
+}
+footer h2{
+    font-family: 'Satisfy', cursive;
+    color: #FF5959;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 10px;
 }
