@@ -82,3 +82,39 @@ input{
     border-bottom: 2px solid #FF5959;
     text-align: center
 }
+
+
+
+
+.donate-plan-heading{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.donate-plan-box{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.plan-box-width{
+    width: 40%;
+    
+    /* padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+    padding: 40px 20px 20px;
+
+    margin: 10px;
+    text-align: justify;
+    border-radius: 5px;
+}
+#first-box{
+    background-color: #4f9da651;
+}
+#second-box{
+    background-color: #ff59593e;
+}
+#last-box{
+    background-color: #f6e9c475;
+}
